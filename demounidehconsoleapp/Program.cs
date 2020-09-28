@@ -10,8 +10,6 @@ namespace demounideconsoleapp
     class Program
     {
         //pvgnacbemhsj67k34t2bbkxpfiszmmpfcobgcaj3dqp6c5rdrn3a
-
-        //be63df991c21f868ddd9e47c678a2236bf03d4e2
         static void Main(string[] args)
         {
             if (args.Length == 0)//(args.Length == 3)
@@ -31,8 +29,6 @@ namespace demounideconsoleapp
             {
                 Console.WriteLine("Usage: ConsoleApp {orgUrl} {personalAccessToken} {workItemId}");
             }
-
-            Console.WriteLine("Everything is done");
         }
 
         static private async Task ShowWorkItemDetails(VssConnection connection, int workItemId)
