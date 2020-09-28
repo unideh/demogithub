@@ -29,6 +29,8 @@ namespace demounideconsoleapp
             {
                 Console.WriteLine("Usage: ConsoleApp {orgUrl} {personalAccessToken} {workItemId}");
             }
+
+            Console.WriteLine("Everything is done!");
         }
 
         static private async Task ShowWorkItemDetails(VssConnection connection, int workItemId)
