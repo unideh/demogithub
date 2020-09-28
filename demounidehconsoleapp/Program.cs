@@ -39,6 +39,8 @@ namespace demounideconsoleapp
             Console.WriteLine("Another change!");
 
             Console.WriteLine("One more");
+
+            Console.WriteLine("Testing CI");
         }
 
         static private async Task ShowWorkItemDetails(VssConnection connection, int workItemId)
