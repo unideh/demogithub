@@ -10,6 +10,10 @@ namespace demounideconsoleapp
     class Program
     {
         //pvgnacbemhsj67k34t2bbkxpfiszmmpfcobgcaj3dqp6c5rdrn3a
+
+        //ab1a264ddf863f14fc1622a5d8ccd51c8986d330
+
+
         static void Main(string[] args)
         {
             if (args.Length == 0)//(args.Length == 3)
@@ -33,6 +37,8 @@ namespace demounideconsoleapp
             Console.WriteLine("Everything is done!");
 
             Console.WriteLine("Another change!");
+
+            Console.WriteLine("One more");
         }
 
         static private async Task ShowWorkItemDetails(VssConnection connection, int workItemId)
