@@ -31,6 +31,8 @@ namespace demounideconsoleapp
             }
 
             Console.WriteLine("Everything is done!");
+
+            Console.WriteLine("Another change!");
         }
 
         static private async Task ShowWorkItemDetails(VssConnection connection, int workItemId)
